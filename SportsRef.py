@@ -6,7 +6,7 @@ def create(dataset):
     for team in dataset:
         teams.append(team)
     
-    # Finding the column widthtes
+    # Finding the column width
     column_width = len(teams[1]) + 3
 
     # Creating the header row
